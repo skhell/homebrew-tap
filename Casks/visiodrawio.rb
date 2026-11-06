@@ -4,21 +4,21 @@ cask "visiodrawio" do
 
   on_macos do
     on_arm do
-      sha256 "04effd2263794fca027890957fb2848b08c5555f59af21a7d755b8414a183129"
+      sha256 "a44a7e7fe28029ed4863a2010e119aa4da9a6763ef8711c3d8b9559bfa4dfc0b"
       url "https://github.com/skhell/visio-to-drawio/releases/download/v#{version}/visiodrawio_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "9146728439672bc21d948f439736924bd14bfd00b981c26e4c5d038b64612c99"
+      sha256 "939a47a6b761f3dc95fba1193f7996e403a5899fac5bc39144e3f497b95af6a7"
       url "https://github.com/skhell/visio-to-drawio/releases/download/v#{version}/visiodrawio_#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "2103750b36ace8d4dd462ca6cde7c4a39ced89959a10e02062b1b7d496878967"
+      sha256 "43be78c01e7d78fb85d146d1318340112bebd9e2106b2e887540b59b5a30debf"
       url "https://github.com/skhell/visio-to-drawio/releases/download/v#{version}/visiodrawio_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "f550a8bec3e0b2b8dc8fdbb89cbe670b73900f503dc696b8174f3f5363bc5c43"
+      sha256 "d1ef282046e55c52672e7d5cfe492d9c600338bcb556d42e5316707d6d307308"
       url "https://github.com/skhell/visio-to-drawio/releases/download/v#{version}/visiodrawio_#{version}_linux_amd64.tar.gz"
     end
   end
